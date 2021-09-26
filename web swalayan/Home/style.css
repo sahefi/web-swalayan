@@ -1,0 +1,55 @@
+body{
+    background-color: #FFB6C1;
+}
+nav{
+    background-color: #FFB6C1	;
+}
+a{
+color: rgb(104, 102, 102);
+}
+img{
+    height: 100%;
+}
+ .dropla {
+    display: inline-block;
+    text-align: center;
+    padding: 9px 2px;
+    text-decoration: none;
+    }
+    .dropla:hover{
+    color: black;
+}
+    .drop {
+    display: none;
+	position:relative;
+    background-color: #f9f9f9;
+    min-width: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    .drop a {
+    color: rgb(153, 153, 153);
+    padding: 12px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+    .drop a:hover {
+        color: black;
+    }
+    .dropdown:hover .drop {
+    display: block;
+    position: fixed;
+    }
+    .container{
+     background-color: #FFB6C1;   
+
+    }
+    .border-top{
+        color: white;
+    }
+    footer{
+        border-top: 2px solid white;
+    }
+   
+    
